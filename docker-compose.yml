@@ -2,6 +2,7 @@ version: '2'
 services:
   factorio:
     image: factoriotools/factorio:latest
+    name: khuh-factorio
     ports:
       - "34197:34197/udp"
       - "27015:27015/tcp"
