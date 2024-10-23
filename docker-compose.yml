@@ -1,7 +1,7 @@
 version: '2'
 services:
   factorio:
-    image: factoriotools/factorio:2.0.8
+    image: factoriotools/factorio:latest
     ports:
       - "34197:34197/udp"
       - "27015:27015/tcp"
